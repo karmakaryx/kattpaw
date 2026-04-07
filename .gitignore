@@ -1,0 +1,11 @@
+# root
+archive/
+.env
+
+# backend
+__pycache__/
+.venv/
+*.db
+
+# frontend
+node_modules/
