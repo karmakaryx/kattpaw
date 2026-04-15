@@ -1,11 +1,18 @@
 # root
 archive/
 .env
+.env.*
+!.env.example
+
+*.conf
+*.service
 
 # backend
 __pycache__/
 .venv/
 *.db
+*.pkl
+faiss*
 
 # frontend
 node_modules/
