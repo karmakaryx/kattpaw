@@ -3,6 +3,7 @@ archive/
 .env
 .env.*
 !.env.example
+DEPLOY.*
 
 *.conf
 *.service
