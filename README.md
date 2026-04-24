@@ -15,6 +15,11 @@ Current version is optimized for Korean. Multi-language support coming soon!
     Your browser does not support the video tag.
   </video>
 </p>
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/b4b13fd9-7df0-49a4-86c6-10414395d42a" width="100%" controls autoplay muted loop>
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 ## **💻 Project Overview**
 ### 1. About Project KattPaw: The GitHub for the Vibe Coding Generation
