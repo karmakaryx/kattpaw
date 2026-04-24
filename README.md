@@ -11,7 +11,7 @@
 ## **🎥 Feature Highlights**
 Current version is optimized for Korean. Multi-language support coming soon!
 <p align="center">
-  <video src="./assets/demo.mp4" width="100%" controls autoplay muted loop>
+  <video src="https://github.com/karmakaryx/kattpaw/tree/main/assets/demo.mp4" width="100%" controls autoplay muted loop>
     Your browser does not support the video tag.
   </video>
 </p>
