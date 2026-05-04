@@ -29,6 +29,11 @@ KattPaw(깟뽀)는 브라우저에서 실행되면서도 로컬 파일 시스템
 - My core technology binds LLM chat history, Code Diffs, and Execution Logs into a single, unified data object. Operating on a BYOK (Bring Your Own Key) model, KattPaw communicates directly with your LLM (currently supporting OpenAI) and offers two specialized agent modes: CONSULT (Contextual Q&A) and CLAW (Autonomous Code Repair).<br>
 LLM과의 대화 내역, 코드 변경분(Diff), 실행 로그를 하나의 데이터 객체로 바인딩하여 저장합니다. 사용자의 LLM API 키를 이용해 모델과 직접 통신하며(현재 OpenAI 지원), 코드 질의응답(CONSULT)과 자동 코드 수정(CLAW)이라는 두 가지 강력한 에이전트 모드를 제공합니다.
 
+#### FYI: Using the OpenAI API doesn't mean I'm a fan of OpenAI.
+_To be clear, I consider Spam Antman the absolute worst villain for dragging AI into a chaotic, wrong direction.<br>
+The only reason I used their API for the MVP is simple: I was granted development credits to build KattPaw.<br>
+So, if anyone wants their model integrated into KattPaw, just hit me up with some credits._ 😉
+
 - API Key Protection: API keys are encrypted using AES and kept only in your browser's session storage. They are never stored on our server nor transmitted in plain text.<br>
 API 키 보호: API 키는 AES로 암호화되어 사용자의 브라우저 세션 스토리지에만 유지됩니다. 서버에는 절대 저장되지 않으며, 평문 상태로 전송되지 않습니다.
 
