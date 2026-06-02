@@ -1,9 +1,3 @@
-### [Notice] Putting Project KattPaw on Hold
-_While I was focusing on the AI competition, a certain company consistently stole KattPaw’s features and roadmap, causing me to lose all motivation to continue its development.<br>
-It seems development on KattPaw must be put on hold at the MVP stage because of the shameless company that thinks it can just plagiarize the ideas, working style, and momentum of an unnamed indie developer without permission or anything in return.<br>
-No matter what I try, the company with capital and manpower incomparable to a helpless individual will continue to plunder, so there is no longer any meaning in carrying on.<br>
-(This message will only be kept until the end of this month.)_
-
 ![banner_llm](./assets/banner_llm.jpg)
 
 <div align="center">
