@@ -1,19 +1,17 @@
-# root
-archive/
+### Environments ###
+/.venv/
 .env
 .env.*
-!.env.example
-DEPLOY.*
-
 *.conf
 *.service
 
-# backend
-__pycache__/
-.venv/
+### Backend ###
+/.venv/
 *.db
 *.pkl
 faiss*
 
-# frontend
-node_modules/
+### Frontend ###
+
+### Custom ###
+/docs/
