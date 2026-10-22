@@ -12,6 +12,7 @@
 faiss*
 
 ### Frontend ###
+auth.ts
 
 ### Custom ###
 /docs/
