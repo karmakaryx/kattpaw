@@ -1,17 +1,18 @@
 ### Environments ###
-/.venv/
 .env
 .env.*
 *.conf
 *.service
 
 ### Backend ###
-/.venv/
+.venv/
+__pycache__/
 *.db
 *.pkl
 faiss*
 
 ### Frontend ###
+node_modules/
 auth.ts
 
 ### Custom ###
