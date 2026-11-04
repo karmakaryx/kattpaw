@@ -16,7 +16,6 @@
   font-display: swap;
 }
 
-/* 공통 스크롤바 (custom-scrollbar) — xterm과 동일한 스타일 */
 .custom-scrollbar::-webkit-scrollbar {
   width: 8px;
 }
@@ -31,7 +30,6 @@
   background: transparent;
 }
 
-/* 터미널 Xterm 커스텀 스타일 유지 */
 .xterm .xterm-screen {
   padding: 12px !important;
 }

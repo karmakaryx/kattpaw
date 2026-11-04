@@ -17,3 +17,9 @@ auth.ts
 
 ### Custom ###
 /docs/
+# /frontend/src/components/
+# /frontend/src/App.tsx
+/backend/routers/
+/backend/graph.py
+# /backend/main.py
+/backend/mcp_server.py
