@@ -1,7 +1,7 @@
 import os
 import sqlite3
 
-import config
+import conf
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.getenv("DB_NAME"))
 
