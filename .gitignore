@@ -9,16 +9,11 @@
 __pycache__/
 *.db
 *.pkl
-faiss*
 
 ### Frontend ###
 node_modules/
 auth.ts
 
 ### Custom ###
+/data/
 /docs/
-# /frontend/src/components/
-# /frontend/src/App.tsx
-/backend/graph.py
-# /backend/main.py
-/backend/mcp_server.py

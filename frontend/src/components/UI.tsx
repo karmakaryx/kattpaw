@@ -14,20 +14,20 @@ let _addToast: ((message: string, type: ToastType) => void) | null = null;
 
 export const toast = {
   success: (msg: string) => _addToast?.(msg, "success"),
-  error:   (msg: string) => _addToast?.(msg, "error"),
-  info:    (msg: string) => _addToast?.(msg, "info"),
+  error: (msg: string) => _addToast?.(msg, "error"),
+  info: (msg: string) => _addToast?.(msg, "info"),
 };
 
 const TOAST_ICONS: Record<ToastType, string> = {
   success: "😻",
-  error:   "🙀",
-  info:    "🐾",
+  error: "🙀",
+  info: "🐾",
 };
 
 const TOAST_STYLES: Record<ToastType, string> = {
   success: "border-[#00aaaa]/40 bg-[#0d2020]",
-  error:   "border-[#ff8888]/40 bg-[#200d0d]",
-  info:    "border-[#f5bccb]/30 bg-[#1e1424]",
+  error: "border-[#ff8888]/40 bg-[#200d0d]",
+  info: "border-[#f5bccb]/30 bg-[#1e1424]",
 };
 
 export const ToastContainer: React.FC = () => {
