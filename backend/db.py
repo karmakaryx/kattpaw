@@ -3,7 +3,7 @@ import sqlite3
 
 import conf
 
-DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.getenv("DB_NAME"))
+DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), os.getenv("DB_DIR"), os.getenv("DB_NAME"))
 
 def get_db_connection() -> sqlite3.Connection:
     return sqlite3.connect(DB_PATH)
