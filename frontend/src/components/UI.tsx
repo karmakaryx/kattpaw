@@ -51,13 +51,15 @@ export const ToastContainer: React.FC = () => {
       {toasts.map((t) => (
         <div
           key={t.id}
-          className={`flex items-start gap-3 px-4 py-3 rounded-lg border text-[13px] text-[#c8c8d0] shadow-xl
+          className={`px-4 py-3 rounded-lg border text-[13px] text-[#c8c8d0] shadow-xl
             backdrop-blur-sm min-w-[260px] max-w-[360px] pointer-events-auto
             animate-[slideIn_0.2s_ease-out]
             ${TOAST_STYLES[t.type]}`}
         >
-          <span className="text-[15px] shrink-0 mt-[1px]">{TOAST_ICONS[t.type]}</span>
-          <span className="leading-relaxed break-words flex-1">{t.message}</span>
+          <span className="leading-relaxed break-words">
+            <span className="text-[15px] leading-none">{TOAST_ICONS[t.type]}&nbsp;&nbsp;</span>
+            {t.message}
+          </span>
         </div>
       ))}
     </div>
